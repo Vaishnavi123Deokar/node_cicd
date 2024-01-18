@@ -18,3 +18,8 @@ describe('GET /', function() {
           return done(new Error('Expected "Page Not Found" in response body'));
         }
 
+        // If everything is fine, invoke the done callback
+        done();
+      });
+  });
+});
